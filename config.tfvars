@@ -1,5 +1,0 @@
-aws_region = "eu-central-1"
-key_name = "ansible-key"
-public_key_path = "~/.ssh/ansible-key.pub"
-ami_id = "ami-06ee6255945a96aba"
-security_group = "default"
