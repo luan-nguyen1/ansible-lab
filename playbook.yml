@@ -1,0 +1,15 @@
+- name: Configure EC2 with Nginx
+  hosts: all
+  become: yes
+  tasks:
+  - name: Install Nginx (Amazon Linux)
+    ansible.builtin.yum:
+      name: nginx
+      state: present
+      update_cache: yes
+      
+  - name: Start Nginx
+    ansible.builtin.systemd:
+      name: nginx
+      state: started
+      enabled: yes
