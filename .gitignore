@@ -1,0 +1,9 @@
+ansible-venv/
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+*.retry
+*.log
+__pycache__/
+*.tar.gz
