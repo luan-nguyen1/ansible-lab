@@ -7,3 +7,4 @@ terraform.tfstate.backup
 *.log
 __pycache__/
 *.tar.gz
+.gitignore
